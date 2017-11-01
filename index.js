@@ -31,3 +31,8 @@ function removeLastKitten(){
   var newMambo = kittens.slice(0, kittens.length - 1)
   return newMambo
 }
+
+function removeFirstKitten(){
+  var newJambo = kittens.slice(1, kittens.length - 1)
+  return newJambo
+}
