@@ -20,5 +20,3 @@ function destructivelyRemoveLastKitten(){
 function appendKitten(name){
   var kittens2 = [name, ...kittens]
 }
-
-function prependKitten(name)
